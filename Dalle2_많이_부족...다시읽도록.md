@@ -60,7 +60,10 @@
    * xT1, xT2 interpolation (xTΘ = slerp(xT1, xT2, Θ))
    * x1과 x2 사이의 random (origin image랑 동일하지 않게 됨)
 
-
+#### Text Diffs
+* 이미지와 문장의 embedded를 같은 latent space로 둠
+* 이미지를 새로운 문장 y로 만들기 위해서 문장에서 zt를 얻고 현재 이미지로부터 zt0 얻는다. 
+* test diff : zd = norm(zt-zt0)
 
 
 ## 단어
